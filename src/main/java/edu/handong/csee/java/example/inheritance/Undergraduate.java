@@ -36,7 +36,7 @@ public class Undergraduate extends Student {
 		super.writeOutput();        
 		System.out.println("StudentLevel: " + level);    
 	} 
-
+ 
 	public boolean equals(Undergraduate otherUndergraduate) { 
 		return equals((Student)otherUndergraduate) && (this.level == otherUndergraduate.level);    
 	} 
